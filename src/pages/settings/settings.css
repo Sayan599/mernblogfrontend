@@ -1,0 +1,135 @@
+.settings {
+    display: flex;
+}
+
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.settingsUpdateTitle {
+    color: lightcoral;
+    font-size: 30px;
+}
+
+.settingsDeleteTitle {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.settingsPP>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPPIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm>input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit {
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px 55px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.settingsForm>input:focus {
+    outline: none;
+}
+
+.settingsPP {
+    cursor: pointer;
+}
+
+.deleteConfirmModal {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 130px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.deleteConfirmModalButton {
+    display: flex;
+    margin-top: 35px;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+.buttonCancel,
+.buttonConfirm {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttonCancel {
+    background-color: white;
+}
+
+.buttonConfirm {
+    background-color: rgba(255, 68, 0, 0.821);
+    box-shadow: 1px 6px 15px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 15px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 15px -6px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.deleteConfirmModal>p{
+    color:grey;
+
+}

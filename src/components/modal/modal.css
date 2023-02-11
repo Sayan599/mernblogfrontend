@@ -1,0 +1,30 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.252);
+}
+
+.modalImg {
+    height: 450px;
+    width: 650px;
+    border-radius: 10px;
+    object-fit:contain;
+}
+
+
+.crossIcon{
+    position: absolute;
+    top:90px;
+    right:380px;
+    font-size:40px;
+    z-index:999;
+    color:black;
+    cursor:pointer;
+}

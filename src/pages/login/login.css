@@ -1,0 +1,67 @@
+.login {
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.loginTitle {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginForm>input {
+    height: 40px;
+    width: 175px;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+}
+
+.loginForm>button {
+    color: white;
+    background-color: lightcoral;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loginForm > label{
+    font-weight: 500;
+}
+
+.loginRegisterbutton {
+    position:absolute;
+    margin-top: 10px;
+    top:20px;
+    right:40px;
+    color:white;
+    background-color:teal;
+    border:none;
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+.forgetPassword{
+    margin-top:10px;
+    margin-left:80px;
+    cursor:pointer;
+    color:brown;
+}
